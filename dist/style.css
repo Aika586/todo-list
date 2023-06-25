@@ -22,3 +22,8 @@ header {
 header {
   display: flex;
 }
+
+.icons {
+  width: 30px;
+  height: auto;
+}
