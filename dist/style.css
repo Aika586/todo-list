@@ -5,7 +5,10 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
 }
 
 #logo {
@@ -24,6 +27,29 @@ header {
 }
 
 .icons {
-  width: 30px;
+  width: 15px;
   height: auto;
+}
+main {
+  display: flex;
+}
+
+main {
+  flex: 1;
+}
+
+span {
+  font-weight: bold;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: beige;
+  flex: 1 0 0;
+}
+
+.main-content {
+  flex: 5 5 0;
 }
