@@ -53,3 +53,13 @@ span {
 .main-content {
   flex: 5 5 0;
 }
+
+.input-projects {
+  display: none;
+}
+.visible {
+  display: block;
+}
+.projectLists {
+  list-style: none;
+}

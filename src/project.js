@@ -11,3 +11,5 @@ class Project {
   }
 }
 export default Project;
+
+const newproject = new Project();
